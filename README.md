@@ -40,7 +40,6 @@ Static Site Generator: Jekyll
 
 Javascript Libraries: jQuery
 
-
 For search, I am using "simple jekyll search" by Chistian Fei
 
 Material design lite header I am using is not mobile optimized and requires some additional CSS.
