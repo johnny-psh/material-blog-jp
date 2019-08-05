@@ -11,6 +11,7 @@ Due to some of the limitations, please have at least two posts to push the foote
 Setup Jekyll in your environment "https://jekyllrb.com/docs/installation/windows/"
 
 Clone or fork this repository
+
 `git clone https://github.com/johnnymythology/material-blog-jp.git` 
 
 `gem install material-blog-jp`
