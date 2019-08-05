@@ -29,16 +29,19 @@ There are four default pages:
 Each page has a different title. Edit the title in the Front Matter.
 
 The blog title needs to be edited in _config.yml 
-Fill in the options in _config.yml accordingly. This will be used for search engine.
+Fill in the options in _config.yml accordingly. This will be used for SEO (Search Engine Optimization).
 
 To create a new post, follow the naming format in the two example post. Since this blog uses images for each post, select an image and put it inside the assets folder. Follow the naming convention as the two sample image.
 
 ## Technical
 Web Framework: Material Design Lite
+
 Static Site Generator: Jekyll
+
 Javascript Libraries: jQuery
 
 For search, I am using "simple jekyll search" by Chistian Fei
+
 Material design lite header I am using is not mobile optimized and requires some additional CSS.
 jQuery is used for the arrow button to scroll the screen back to the top.
 
