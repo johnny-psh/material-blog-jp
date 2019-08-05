@@ -1,13 +1,19 @@
 # material-blog-jp (Jekyll Theme)
 Material-blog-jp is a blog build following material design principles. This theme is built using material design lite web framework. 
 
+This theme consists of three 
+
 Due to some of the limitations, please have at least two posts to push the footers to the bottom of the page, same goes for the "about" section
 
 ![GitHub Logo](/screenshot.PNG)
 
 ## Installation
+Setup Jekyll in your environment "https://jekyllrb.com/docs/installation/windows/"
 
 Clone or fork this repository
+`git clone https://github.com/johnnymythology/material-blog-jp.git` 
+
+`gem install material-blog-jp`
 
 `bundle exec jekyll serve`
 
