@@ -1,54 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="/material_lite/material.min.css">
-		<script src="/material_lite/material.min.js"></script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<!-- Uses a transparent header that draws on top of the layout's background -->
-	<style>
-		.demo-layout-transparent {
-	  		background: url('../assets/demos/transparent.jpg') center / cover;
-		}
-		.demo-layout-transparent .mdl-layout__header,
-		.demo-layout-transparent .mdl-layout__drawer-button {
-	  	/* This background is dark, so we set text to white. Use 87% black instead if
-	          your background is light. */
-	  	color: white;
-		}
-	</style>
-	</head>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-	<body>
-		<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-			  <header class="mdl-layout__header mdl-layout__header--transparent">
-				      <div class="mdl-layout__header-row">
-					            <!-- Title -->
-						          <span class="mdl-layout-title">Title</span>
-							        <!-- Add spacer, to align navigation to the right -->
-								      <div class="mdl-layout-spacer"></div>
-								            <!-- Navigation -->
-									          <nav class="mdl-navigation">
-											          <a class="mdl-navigation__link" href="">Link</a>
-												          <a class="mdl-navigation__link" href="">Link</a>
-													          <a class="mdl-navigation__link" href="">Link</a>
-														          <a class="mdl-navigation__link" href="">Link</a>
-															        </nav>
-																    </div>
-																      </header>
-																        <div class="mdl-layout__drawer">
-																		    <span class="mdl-layout-title">Title</span>
-																		        <nav class="mdl-navigation">
-																				      <a class="mdl-navigation__link" href="">Link</a>
-																				            <a class="mdl-navigation__link" href="">Link</a>
-																					          <a class="mdl-navigation__link" href="">Link</a>
-																						        <a class="mdl-navigation__link" href="">Link</a>
-																							    </nav>
-																							      </div>
-																							        <main class="mdl-layout__content">
-																								  </main>
-		</div>
-		
-	</body>
+{%- include head.html -%}
+
+<body>
+    <div class="demo-layout-transparent mdl-layout--fixed-header mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Johnny Pan</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation remove-mdl-navigation-link">
+                    <a class="mdl-navigation__link" href="/index.html">Home</a>
+                    <a class="mdl-navigation__link" href="/search.html">Search</a>
+                    <a class="mdl-navigation__link" href="/about.html">About</a>
+        
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Johnny Pan</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="/index.html">Home</a>
+                <a class="mdl-navigation__link" href="/search.html">Search</a>
+                <a class="mdl-navigation__link" href="/about.html">About</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content" >
+         
+        </main>
+    </div>
+    </div>
+
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+
+
+
+    <div class="mdl-grid">
+        <div class="mdl-layout-spacer"></div>  
+        <div class="mdl-cell mdl-cell--4-col">    
+
+            {{ content }}
+    
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-arrowup-button-right back-to-top">
+            <i class="material-icons">arrow_upward</i>
+        </button>
+
+        {%- include footer.html -%}
+
+</body>
 
 </html>
