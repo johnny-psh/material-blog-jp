@@ -1,14 +1,14 @@
 # material-blog-jp (Jekyll Theme)
 Material-blog-jp is a blog build following material design principles. This theme is built using material design lite web framework. 
 
-This theme consists of three 
+This theme consists of four web pages, index, about, search and 404. Index will display all the blog posts, starting from the latest. Search will display a text field input and two of the latest blog posting. About will contain a description about the blog. 404 will display when someone tried to access a resource that can not be found.
 
-Due to some of the limitations, please have at least two posts to push the footers to the bottom of the page, same goes for the "about" section
+Due to some of the limitations, please have at least two posts to push the footers to the bottom of the page, same goes for the "about" section.
 
 ![GitHub Logo](/screenshot.PNG)
 
 ## Installation
-Setup Jekyll in your environment "https://jekyllrb.com/docs/installation/windows/"
+Setup Jekyll in your environment https://jekyllrb.com/docs/installation/windows/
 
 Clone or fork this repository
 
