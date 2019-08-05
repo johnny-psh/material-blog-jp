@@ -6,39 +6,28 @@ Due to some of the limitations, please have at least two posts to push the foote
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+Clone or fork this repository
 
-```ruby
-gem "material-blog-jp"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: material-blog-jp
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install material-blog-jp
+`bundle exec jekyll serve`
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+There are four default pages:
+- index.md 
+- about.md
+- search.md
+- 404.md
+
+Each page has a different title. Edit the title in the Front Matter.
+
+The blog title needs to be edited in _config.yml 
+Fill in the options in _config.yml accordingly. This will be used for search engine.
+
+To create a new post, follow the naming format in the two example post. Since this blog uses images for each post, select an image and put it inside the assets folder. Follow the naming convention as the two sample image.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+Bug reports and pull requests are welcome on GitHub at https://github.com/johnnymythology/material-blog-jp.
 
 ## License
 
