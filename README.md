@@ -3,6 +3,7 @@ Material-blog-jp is a blog build following material design principles. This them
 
 Due to some of the limitations, please have at least two posts to push the footers to the bottom of the page, same goes for the "about" section
 
+![alt text](https://raw.githubusercontent.com/johnnymythology/material-blog-jp/master/screenshot.PNG?token=ACBCULD3PYVF5UKOF4WIEOS5I756U)
 
 ## Installation
 
