@@ -12,13 +12,13 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "material-design-blog-jp"
+gem "material-blog-jp"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: material-design-blog-jp
+theme: material-blog-jp
 ```
 
 And then execute:
@@ -27,7 +27,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install material-design-blog-jp
+    $ gem install material-blog-jp
 
 ## Usage
 
