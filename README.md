@@ -12,11 +12,13 @@ Because of some limitations, please have at least two posts to push the footers 
 ## Installation 
 Setup Jekyll in your environment https://jekyllrb.com/docs/installation/windows/ 
 
-Clone or fork this repository 
+Clone or fork this repository. Make sure your computer have 'git' installed.
 
 `git clone https://github.com/johnnymythology/material-blog-jp.git`  
 
 `gem install material-blog-jp` 
+
+`bundle install`
 
 `bundle exec jekyll serve` 
 
