@@ -1,5 +1,5 @@
 # material-blog-jp (Jekyll Theme)
-Material-blog-jp is a blog build following material design principles. This theme is built using material design lite web framework. 
+Material-blog-jp is a blog built following material design principles. This theme is built using material design lite web framework. 
 
 This theme consists of four web pages, index, about, search and 404. Index will display all the blog posts, starting from the latest. Search will display a text field input and two of the latest blog posting. About will contain a description of the blog. 404 will display when someone tried to access a resource that can not be found. This theme is optimized for mobile phones, iPads, etc
 
