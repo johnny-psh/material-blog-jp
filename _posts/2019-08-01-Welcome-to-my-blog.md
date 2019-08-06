@@ -14,3 +14,5 @@ def foo
   puts 'foo'
 end
 {% endhighlight %}
+
+![image](/assets/transparent.jpg)

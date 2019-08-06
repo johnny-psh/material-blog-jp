@@ -21,12 +21,14 @@ html, body {
     .mdl-cell--4-col {
         width:800px;
     }
+	
+	img[alt=image] { width: 720px; }
     
 }
 
 /* Card CSS */
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 800px) {
     .demo-card-wide.mdl-card {
         max-width: 100%;
     }
@@ -38,6 +40,8 @@ html, body {
     .demo-card-wide.mdl-card {
         width: 512px;
     }
+	
+	img[alt=image] { width: 340px; }
  }
 
 
