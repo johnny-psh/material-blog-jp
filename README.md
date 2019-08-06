@@ -10,8 +10,6 @@ Because of some limitations, please have at least two posts to push the footers 
 ![GitHub Logo](/screenshot.PNG) 
 
 ## Installation 
-A more detailed writeup [https://www.johnnypan.me/technical/2019/08/06/Material-Design-Blog-Theme.html](https://www.johnnypan.me/technical/2019/08/06/Material-Design-Blog-Theme.html) 
-
 Setup Jekyll in your environment https://jekyllrb.com/docs/installation/windows/ 
 
 Clone or fork this repository 
@@ -21,6 +19,8 @@ Clone or fork this repository
 `gem install material-blog-jp` 
 
 `bundle exec jekyll serve` 
+
+A more detailed writeup [https://www.johnnypan.me/technical/2019/08/06/Material-Design-Blog-Theme.html](https://www.johnnypan.me/technical/2019/08/06/Material-Design-Blog-Theme.html) 
 
 ## Usage 
 There are four default pages: 
