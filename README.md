@@ -35,6 +35,8 @@ Fill in the options in _config.yml accordingly. This will be used for SEO (Searc
 
 To create a new post, follow the naming format in the two example post. Since this blog uses images for each post, select an image and put it inside the assets folder. Follow the naming convention as the two sample image. ("yyyy-mm-dd.jpg")
 
+For any photos used in the post, please put it inside the assets folder.
+
 ## Technical
 Web Framework: Material Design Lite
 
