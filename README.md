@@ -10,6 +10,8 @@ Because of some limitations, please have at least two posts to push the footers 
 ![GitHub Logo](/screenshot.PNG) 
 
 ## Installation 
+Either followed a more detailed or below ![https://www.johnnypan.me/technical/2019/08/06/Material-Design-Blog-Theme.html](https://www.johnnypan.me/technical/2019/08/06/Material-Design-Blog-Theme.html) 
+
 Setup Jekyll in your environment https://jekyllrb.com/docs/installation/windows/ 
 
 Clone or fork this repository 
