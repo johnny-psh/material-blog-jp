@@ -85,5 +85,7 @@ html, body {
 
 pre { white-space: pre; overflow: auto; }
 
+.mdl-ripple { background: transparent; opacity: 0.001; }
+
 
 
